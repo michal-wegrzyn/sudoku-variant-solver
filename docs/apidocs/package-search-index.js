@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html","k":"18"},{"l":"sudokusolver.csp"},{"l":"sudokusolver.csp.constraints"},{"l":"sudokusolver.sudoku"},{"l":"sudokusolver.sudoku.rules"}];updateSearchResults();
