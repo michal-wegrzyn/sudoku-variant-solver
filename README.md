@@ -30,12 +30,14 @@ mvn compile
 mvn test
 ```
 
-### 3. Generate Documentation
+### 3. Generate documentation
 ```bash
-mvn javadoc:javadoc
+mvn site
 ```
-Note: Documentation is generated directly into the /docs directory at the project root. Open `docs/apidocs/index.html` in any web browser to view the generated documentation.
-
+**Note on Documentation:**
+The complete project documentation is automatically built into the `/docs` directory at the project root:
+* **Project Website & Overview:** Open `docs/index.html` in any web browser to view the full site.
+* **Code documentation (JavaDocs):** Open `docs/apidocs/index.html` directly to browse the technical code documentation.
 
 ## 💡 Quick Start (Usage Example)
 Configuring custom grid layouts and rule compositions has been streamlined for maximum developer experience. The snippet below demonstrates how to initialize and solve a diagonal Sudoku puzzle:
@@ -87,4 +89,4 @@ public class Main {
 
 ## 📐 Class Structure (UML diagram)
 
-![UML Class Diagram](diagram.png)
+![UML Class Diagram](resources/diagram.png)
